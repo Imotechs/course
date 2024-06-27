@@ -2,3 +2,39 @@
 #table-form{
     background-color: green;
 }
+
+.top-modal{
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 100px;
+    margin: 50px;
+
+}
+
+.top-modal img{
+    border-radius: 20px;
+}
+
+.top-modal a{
+    color:greenyellow;
+}
+
+
+.sibblings-list{
+ text-align: center;
+}
+.sibblings-list img{
+    border-radius: 10%;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+}
+.sibblings-list ul{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+
+}
+
