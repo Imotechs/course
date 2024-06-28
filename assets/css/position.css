@@ -1,0 +1,40 @@
+:root{
+    --bg-color:blue;
+    --padding:30px;
+}
+
+.container{
+    background-color: var(--bg-color);
+    position: relative;
+    height: 400px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .static{
+    position: static;
+    padding: var(--padding);
+    background-color:chartreuse;
+
+}
+.container .relative{
+    position:relative;
+    top:0px;
+    left:10px;
+    background-color: brown;
+
+}
+
+.container .absolute{
+    position: absolute;
+    right: 0;
+    top:0;
+    background-color: blueviolet;
+}
+
+.sticky{
+    position: sticky;
+    top:10px;
+
+}

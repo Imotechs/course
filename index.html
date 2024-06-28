@@ -15,10 +15,46 @@
         #headers{
             background-color: blue;
         }
+        .header{
+            background-color: rgba(92, 92, 4, 0.933);
+            border-radius: 15px;
+            padding: 20px;
+        }
+        .nav{
+            display: flex;
+            text-align: center;
+            align-items: center;
+
+        }
+        .links{
+            height: 40px;
+            text-align: center;
+            align-items: baseline;
+            margin-left: 250px;
+            background-color: blueviolet;
+
+        }
+        .links a{
+            padding: 20px;
+            margin: 20px;
+            color: chartreuse;
+            text-decoration: none;
+            margin-top: 30px;
+
+
+        }
     </style>
 
-    <header>
-
+    <header class="header">
+        <nav class="nav">
+            <div class="links">
+             <a href="/">Home</a>
+             <a href="/">About</a>
+             <a href="/">Contact</a>
+             <a href="/">Services</a>
+             <a href="/">Projects</a>
+            </div>
+         </nav>
     </header>
 
     <aside>
@@ -94,13 +130,14 @@
     <div>
         <h3>Forms</h3>
 
-        <form method="post">
+        <form method="post" action="flexb.html">
             <label>Name :</label>
             <input type="text" placeholder="Your Full Name"/>
             <label>Email</label>
             <input type="email" placeholder="Only Email"/><br/>
             <label>Phone No.</label>
             <input type="number" />
+            <button type="submit">submit</button>
         </form>
 
     </div>
