@@ -1,0 +1,86 @@
+var: The scope is function or global scoped.
+let: The scope is block-scoped.
+const: The scope is block-scoped, and the variable cannot be reassigned.
+
+Data Types
+Primitive Types
+Number: Represents both integer and floating point numbers
+    let num = 42;
+    let pi = 3.14;
+
+String: Represents text
+    let str = "Hello, World!";
+
+
+Boolean: Represents true or false.
+    let isTrue = true;
+Undefined: A variable that has been declared but not assigned a value.
+
+    let unassigned;
+Null: Represents the intentional absence of any object value.
+
+    let emptyValue = null;
+    
+Object: Used to store collections of data and more complex entities.
+
+    let obj = {
+        name: "John",
+        age: 30
+    };
+
+Operators
+Arithmetic Operators
+
+    + (Addition)
+    - (Subtraction)
+    * (Multiplication)
+    / (Division)
+    % (Modulus)
+    ++ (Increment)
+    -- (Decrement)
+Example:
+    let x = 10;
+    let y = 5;
+    console.log(x + y); // 15
+    console.log(x - y); // 5
+    console.log(x * y); // 50
+    console.log(x / y); // 2
+    console.log(x % y); // 0
+Assignment Operators
+
+    = (Assign)
+    += (Add and assign)
+    -= (Subtract and assign)
+    *= (Multiply and assign)
+    /= (Divide and assign)
+    %= (Modulus and assign)
+Example:
+    let a = 10;
+    a += 5; // a = a + 5; a is now 15
+
+Comparison Operators
+
+    == (Equal to)
+    === (Strict equal to)
+    != (Not equal to)
+    !== (Strict not equal to)
+    > (Greater than)
+    < (Less than)
+    >= (Greater than or equal to)
+    <= (Less than or equal to)
+Example:
+    let a = 10;
+    let b = '10';
+    console.log(a == b);  // true
+    console.log(a === b); // false
+Logical Operators
+&& (Logical AND)
+|| (Logical OR)
+! (Logical NOT)
+Example:
+let a = true;
+let b = false;
+console.log(a && b); // false
+console.log(a || b); // true
+console.log(!a);     // false
+
