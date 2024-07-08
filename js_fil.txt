@@ -38,6 +38,7 @@ Arithmetic Operators
     % (Modulus)
     ++ (Increment)
     -- (Decrement)
+    
 Example:
     let x = 10;
     let y = 5;

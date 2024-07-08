@@ -34,3 +34,20 @@ console.log(person.age)
 
 
 
+function addNumbers(num1,num2){
+    const total = num1+num2
+    console.log(total)
+    return total
+}
+
+const multiplyNumbers =(a,b)=>{
+    return a*b
+}
+
+//console.log('muitiplying numbers',multiplyNumbers(2,3))
+
+function openForm(){
+    const form = document.getElementById('form-inputs')
+    form.style.display ='block';
+    form.style.backgroundColor ='brown'
+}
