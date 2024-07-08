@@ -51,3 +51,33 @@ function openForm(){
     form.style.display ='block';
     form.style.backgroundColor ='brown'
 }
+
+ function ifControl(num){
+    if(num===1){
+        console.log('Good Morning')
+    } else if(num ===2){
+        console.log('Good Afternoon')
+    } else if(num ===3){
+        console.log('Good evening')
+    }
+    
+    else{
+        console.log('Good Night!')
+    }
+ }
+
+
+ifControl(2)
+
+const whileControl =(num)=>{
+ while(num<5){
+    console.log(num)
+    if(num==3){
+        break;
+    }
+    num++;
+ }
+ console.log('out of loop ')
+}
+
+whileControl(1)
