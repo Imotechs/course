@@ -81,3 +81,40 @@ const whileControl =(num)=>{
 }
 
 whileControl(1)
+
+function numbersIdentifier(){
+    let num =0
+    while(num<=10){
+     if(num%2===0){
+        console.log('even Number',num)
+     } else{
+        console.log('old Number',num)
+     }
+     num++
+    }
+
+}
+
+//numbersIdentifier()
+
+let namesArray =['sam','josh','vera','sunny']
+//console.log(namesArray[0])
+//console.log(namesArray[namesArray.length-1]) //take note
+
+for(let i=0;i<namesArray.length;i++){
+    console.log(namesArray[i],i)
+}
+
+//console.log(namesArray.pop())
+// namesArray.pop()
+// namesArray.shift()
+namesArray.unshift('javis')
+console.log(namesArray)
+
+var book ={
+    names:{firtname:'Last Days at forcados',lastname:'jamb'},
+    author:'Samuel Tobe',
+    year:2024
+}
+
+console.log(book.names)
