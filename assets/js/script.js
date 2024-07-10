@@ -118,3 +118,25 @@ var book ={
 }
 
 console.log(book.names)
+
+//const header = document.getElementsByClassName('header')
+const headers = document.getElementById('heading')
+headers.style.backgroundColor='red'
+//headers.innerHTML ='My Headers'
+console.log(headers)
+const t1 = document.getElementsByClassName('t1')
+
+for(let i=0;i<t1.length;i++){
+    t1[i].style.backgroundColor='black'
+    t1[i].style.color ='white'
+    console.log(t1[i])
+}
+
+const clickBtn = document.getElementById('clickme')
+var tableForm = document.getElementById('table-form')
+
+function myfunc(){
+    tableForm.style.display = 'none'
+
+}
+tableForm.addEventListener('click',myfunc)
