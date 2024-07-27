@@ -247,7 +247,58 @@
             </tr>
         </tbody>
     </table>
+
     </section>
+    <div id="products">
+
+    </div>
+    <script>
+         const productData = [ {
+                            "slug":"iphone-xr-new-model", 
+                            "name":"Iphone Xr", 
+                            "description":"Released 2018, October 26, 194g, 8.3mm thickness 64GB/128GB/256GB storage,",
+                            "price":"$230", 
+                            "category":"Phones",
+                            "date_created": "2024-07-21T02:31:56.925707Z"
+                            },
+                            {
+                            "slug":"Tecno spark 10-model", 
+                            "name":"Spark 10", 
+                            "description":"Released 2023, April8.4mm thickness Android 13, HIOS 12128GB storage, microSDXC",
+                            "price":"$83", 
+                            "category":"Phones",
+                            "date_created": "2024-07-21T02:31:56.925707Z"
+                            },
+                            {
+                            "slug":"Tecno spark 10-model", 
+                            "name":"Spark 20", 
+                            "description":"Released 2023, April8.4mm thickness Android 13, HIOS 12128GB storage, microSDXC",
+                            "price":"$83", 
+                            "category":"Phones",
+                            "date_created": "2024-07-21T02:31:56.925707Z"
+                            },
+                            {
+                            "slug":"Tecno spark 10-model", 
+                            "name":"new phone", 
+                            "description":"Released 2023, April8.4mm thickness Android 13, HIOS 12128GB storage, microSDXC",
+                            "price":"$83", 
+                            "category":"Phones",
+                            "date_created": "2024-07-21T02:31:56.925707Z"
+                            }
+]
+const productsDiv = document.getElementById('products')
+    for(let i=0;i<=productData.length;i++){
+        const Item =document.createElement('div')
+        let paragraph1 = document.createElement('p')
+        paragraph1.innerText = `Name: ${productData[i]['name']}`
+        let paragraph2 =document.createElement('p')
+        paragraph2.innerText =`description: ${productData[i]['description']}`
+        Item.appendChild(paragraph1)
+        Item.appendChild(paragraph2)
+        productsDiv.appendChild(Item)
+    }
+
+    </script>
 
     <footer class="bg-light text-center text-lg-start">
         <div class="text-center p-3">
